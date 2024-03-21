@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 import { Providers } from "./providers";
-
+import Head from 'next/head';
 import Header from './layout/Header';
 import Sidebar from './layout/Sidebar';
 import Footer from './layout/Footer';
@@ -18,6 +18,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='light bg-red-800'>
+      <Head>
+        <title>Wiki Loves Monuments UK</title>
+        <meta name="Wiki Loves Monuments UK" content="Data visualisation for the Wiki Loves Monuments UK competition." />
+        <meta property="og:title" content="Wiki Loves Monuments UK - Visualisation" />
+        <meta property="og:description" content="Interactive data visualisation for the Wiki Loves Monuments UK competition." />
+        <meta property="og:url" content="https://wiki-loves-monument-uk-visalisation.vercel.app/" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body className={inter.className}>
         <Providers>
           <div className='flex flex-col min-h-screen text-white'> {/* Ensure the container is at least as tall as the viewport */}
