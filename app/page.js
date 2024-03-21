@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useEffect, useState, useContext } from 'react';
+import Head from 'next/head';
 
 import { DataProvider } from '@/context';
 import { DataContext } from '@/context';
@@ -35,6 +36,9 @@ const Home = () => {
 
   return (
     <div className="scrollbar-hide  bg-indigo-950 text-white">
+      <Head>
+        <title>Wiki Loves Monuments UK</title>
+      </Head>
       <div className=''>
         <IntroductionSection />
       </div>
