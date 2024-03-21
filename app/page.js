@@ -38,6 +38,7 @@ const Home = () => {
     <div className="scrollbar-hide  bg-indigo-950 text-white">
       <Head>
         <title>Wiki Loves Monuments UK</title>
+        <meta name="Wiki Loves Monuments UK" content="Data visualisation for the Wiki Loves Monuments UK competition." />
       </Head>
       <div className=''>
         <IntroductionSection />
