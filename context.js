@@ -5,12 +5,11 @@ import React, { createContext, useState, useEffect } from 'react';
 export const DataContext = createContext(null);
 export const WindowDimensionsContext = createContext(null);
 
-export const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+export const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
 
 export const DataProvider = ({ children }) => {
 
-    console.log(process.env.REACT_APP_API_URL)
-    console.log(process.env.API_URL)
+    console.log(process.env.NEXT_PUBLIC_API_URL)
     // 1. Intro section
     const [stats, setStats] = useState({});
     // 2. Contribution Section
