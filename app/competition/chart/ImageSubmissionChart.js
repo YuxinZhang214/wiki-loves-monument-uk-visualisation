@@ -50,28 +50,35 @@ const CombinedChart = () => {
       .attr('y', margin.top / 2 + 10 + 40) // Position below the title
       .attr('fill', '#9CA3AF') // White text color
       .style('font-size', '16px') // Smaller font size for the description
-      .text('Visualize the growing number of contributions capturing UK\'s heritage through the ');
+      .text('The impact of our project reaches far beyond the individual contributions; it\'s about the');
 
     svg.append('text')
       .attr('x', margin.left/ 2)
       .attr('y', margin.top / 2 + 10 + 40 + 20) // Position below the title
       .attr('fill', '#9CA3AF') // White text color
       .style('font-size', '16px') // Smaller font size for the description
-      .text('years. The area shows the image submission accumulated over the years. On the');
+      .text('cumulative effect of every single image and story brought to light. Our endeavor illuminates  ');
 
     svg.append('text')
       .attr('x', margin.left/ 2)
       .attr('y', margin.top / 2 + 10 + 40 + 20*2) // Position below the title
       .attr('fill', '#9CA3AF') // White text color
       .style('font-size', '16px') // Smaller font size for the description
-      .text('right also see the monuments documented by our community on the map, each dot ');
+      .text('the significance of each documented site, bringing into focus the indispensable role of  ');
 
     svg.append('text')
       .attr('x', margin.left/ 2)
       .attr('y', margin.top / 2 + 10 + 40 + 20*3) // Position below the title
       .attr('fill', '#9CA3AF') // White text color
       .style('font-size', '16px') // Smaller font size for the description
-      .text('represented a monument location.');
+      .text('public participation in the conservation of cultural heritage. Together, we\'re not just');
+
+    svg.append('text')
+      .attr('x', margin.left/ 2)
+      .attr('y', margin.top / 2 + 10 + 40 + 20*4) // Position below the title
+      .attr('fill', '#9CA3AF') // White text color
+      .style('font-size', '16px') // Smaller font size for the description
+      .text('documenting history; we\'re shaping the way it\'s remembered.');
 
     // 2. Area chart for cumulative yearly data
     const xScale = d3.scaleTime()
@@ -111,7 +118,7 @@ const CombinedChart = () => {
     areaChartGroup.append('text')
       .attr('x', 0)
       .attr('y', -45)
-      .text('Cumulative Image Submissions')
+      .text('Received 90,666 image submission over 9 year ')
       .style('font-size', '22px')
       .style('font-weight', 'bold')
       .style('fill', '#FFFFFF');

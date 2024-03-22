@@ -125,7 +125,7 @@ const ContestPage = () => {
               <div id="title" className="lg:mb-0 w-3/4">
                 <h1 className="text-4xl font-bold text-white">Documenting Heritage for the Global Stage</h1>
                 <p className="text-lg text-gray-400 mt-2">
-                  Wiki Loves Monuments UK represents the UK's participation in the broader, global contest. Taking place each September from 2013 to 2023, with the exception of 2015 and 2021, this initiative aims to enrich the world's visual archive of built heritage. It achieves this by increasing the quantity and quality of openly licensed images of monuments on Wikimedia Commons, Wikipedia's shared media repository. The contest inspires local enthusiasts to capture and share the historical monuments within their communities, encouraging a deeper engagement with the cultural, historical, or scientific significance of their surroundings.
+                  Wiki Loves Monuments UK forms an integral part of a global endeavor that transcends borders, aiming to document and preserve the tapestry of our world's cultural heritage. Every September, from 2013 to 2023 — except for the years 2015 and 2021 - the UK has proudly taken its place on this global stage. The initiative is not just about capturing images; it's a call to arms for local enthusiasts and photographers to explore and celebrate the historical narratives embedded within the stones and structures of their local monuments. Through their lenses, participants have not only contributed to the world's largest visual archive of built heritage on Wikimedia Commons but have also played a pivotal role in enhancing public access to the stories and significance of these cultural landmarks. This contest embodies the spirit of community and shared heritage, illustrating how individual contributions can collectively contribute to the global tapestry of human history.
                 </p> 
               </div>
               <div id="highlight" className="text-right">
@@ -150,9 +150,9 @@ const ContestPage = () => {
                          border-b-2 border-white px-20 py-16 "
             >
               <div id="title" className="lg:mb-0 w-3/4">
-                <h1 className="text-4xl font-bold text-white">Our Community</h1>
+                <h1 className="text-4xl font-bold text-white">Our Contributors as The Heart of Our Mission </h1>
                 <p className="text-lg text-gray-400 mt-2">
-                  So far we have 2928 participant. Discover who has contributed and the diversity of the community
+                At the core of Wiki Loves Monuments UK lies our vibrant community of 2,928 participants who have journeyed with us through this exploration of heritage. Each contributor, with their unique perspective and lens, has added a distinct hue to the mosaic of images that now grace Wikimedia Commons. From seasoned photographers to curious locals, our community is a testament to diversity and shared passion. By showcasing the diversity and dedication of our participants, we aim to inspire more individuals to join this movement, weaving their own threads into the ever-expanding narrative of cultural heritage preservation.
                 </p> 
               </div>
               <div id="highlight" className="text-right">
@@ -177,39 +177,38 @@ const ContestPage = () => {
                          border-b-2 border-white px-20 py-16 "
             >
               <div id="title" className="lg:mb-0 w-3/4">
-                <h1 className="text-4xl font-bold text-white">Our Impact</h1>
+                <h1 className="text-4xl font-bold text-white">The Legacy of Our Collection on Preserving History</h1>
                 <p className="text-lg text-gray-400 mt-2">
-                  See the Images we have colleted and the monuments we have documented over the UK
+                The essence of Wiki Loves Monuments UK extends beyond the act of documentation — it's about creating a lasting impact on how we perceive and engage with our cultural heritage. Through the collective effort of our participants, we've amassed an expansive collection of images that not only visualizes but also immortalizes the architectural marvels across the UK. Each photograph serves as a digital preservation of history, ensuring that future generations have the opportunity to witness and appreciate these monuments in their full glory.
                 </p> 
               </div>
 
-              <div id="highlights" className="w-full lg:w-1/2 flex flex-wrap justify-between">
-                <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
-                    <div className="text-lg text-gray-400">Received</div>
-                    <h1 className="text-4xl font-bold text-white">90666</h1>
-                    <div className="text-lg text-gray-400">Images Submission</div>
-                </div>
-                
-                <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
-                    <div className="text-lg text-gray-400">Monuments Documented</div>
-                    <h1 className="text-4xl font-bold text-white">19283</h1>
-                    <div className="text-lg text-gray-400">Unique Locations</div>
-                </div>
-                
-                <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
-                    <div className="text-lg text-gray-400">Documented</div>
-                    <h1 className="text-4xl font-bold text-white">1174</h1>
-                    <div className="text-lg text-gray-400">Monument Instance Types</div>
-                </div>
-                
-                <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
-                    <div className="text-lg text-gray-400">Representing</div>
-                    <h1 className="text-4xl font-bold text-white">9</h1>
-                    <div className="text-lg text-gray-400">UK Heritage Destinations</div>
-                </div>
-            </div>
+                <div id="highlights" className="w-full lg:w-1/2 flex flex-wrap justify-between ">
 
-
+                  <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
+                      <div className="text-lg text-gray-400">Received</div>
+                      <h1 className="text-4xl font-bold text-white">90666</h1>
+                      <div className="text-lg text-gray-400">Images Submission</div>
+                  </div>
+                  
+                  <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
+                      <div className="text-lg text-gray-400">Monuments Documented</div>
+                      <h1 className="text-4xl font-bold text-white">19283</h1>
+                      <div className="text-lg text-gray-400">Unique Locations</div>
+                  </div>
+                  
+                  <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
+                      <div className="text-lg text-gray-400">Documented</div>
+                      <h1 className="text-4xl font-bold text-white">1174</h1>
+                      <div className="text-lg text-gray-400">Monument Instance Types</div>
+                  </div>
+                  
+                  <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
+                      <div className="text-lg text-gray-400">Representing</div>
+                      <h1 className="text-4xl font-bold text-white">9</h1>
+                      <div className="text-lg text-gray-400">UK Heritage Destinations</div>
+                  </div>
+              </div>
             </div>
 
             <div id="area-map-chart" className="h-screen border-white py-8 px-16 mb-8">

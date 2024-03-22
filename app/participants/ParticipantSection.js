@@ -103,7 +103,7 @@ export default function ParticipantSection() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8 }}
             >
-              Thank you for being part of {participants.length} community. Let's see your contribution towards uk heritage 
+              Thank you for being part of {participants.length} community. Let's delve into the your profiles to uncover the stories behind the camera: the adventures, the discoveries, and the unwavering commitment to preserving our collective memory.
             </motion.p>
             <form onSubmit={handleSubmit} className="w-full max-w-md">
               <div className="flex items-center border-2 border-white px-3 py-1 bg-opacity-20">
