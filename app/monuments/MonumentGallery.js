@@ -189,7 +189,7 @@ const MonumentGallery = ({
         <div id="filter-container" className="flex justify-between px-16 py-8 border-b-2">
             <div>
                 <h2 className="text-4xl font-bold text-white">{image_count}</h2>
-                <p className="text-lg text-gray-400 mt-2">Monument images documented by {image_author_count} Image Authors</p>
+                <p className="text-lg text-gray-400 mt-2">Monument images documented</p>
             </div>
             <div className="flex space-x-4">
                 {renderDropdown(
