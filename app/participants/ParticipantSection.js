@@ -103,7 +103,7 @@ export default function ParticipantSection() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8 }}
             >
-              Thank you for being part of {participants.length} community. Let's delve into the your profiles to uncover the stories behind the camera: the adventures, the discoveries, and the unwavering commitment to preserving our collective memory.
+              Explore the breadth of your activity and the significant contributions you’ve made over the course of the competition’s rich history.
             </motion.p>
             <form onSubmit={handleSubmit} className="w-full max-w-md">
               <div className="flex items-center border-2 border-white px-3 py-1 bg-opacity-20">
@@ -159,17 +159,17 @@ export default function ParticipantSection() {
                               border-b-2 border-white px-20 py-16 "
                   >
                     <div id="title" className="lg:mb-0 w-3/4">
-                      <h1 className="text-4xl font-bold text-white">Your Contribution</h1>
+                      <h1 className="text-4xl font-bold text-white">Your Valued Contribution</h1>
                       <p className="text-lg text-gray-400 mt-2">
-                        Let's see your activity and contribution made throughout the entire competition history
+                      As one of the 2,928 dedicated individuals in our community, your unique perspective has been integral to our collective effort. Discover the impact of your own journey — the adventures you’ve embarked on, the discoveries you’ve made, and the lasting commitment you’ve shown in safeguarding our shared heritage.
                       </p> 
                     </div>
 
                     <div id="highlights" className="w-full lg:w-1/2 flex flex-wrap justify-between">
                       <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">
-                          <div className="text-lg text-gray-400">Total Submissions</div>
+                          <div className="text-lg text-gray-400">Submitted</div>
                           <h1 className="text-4xl font-bold text-white">{data.submissions.length}</h1>
-                          <div className="text-lg text-gray-400">Images Received</div>
+                          <div className="text-lg text-gray-400">Monument Images</div>
                       </div>
                       
                       <div className="flex flex-col text-center lg:text-right w-full lg:w-1/2 p-2">

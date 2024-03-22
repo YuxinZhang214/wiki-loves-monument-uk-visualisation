@@ -38,7 +38,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="px-4">
-                            <h3 className="font-bold mb-4">Learn More</h3>
+                            <h3 className="font-bold mb-4">More</h3>
                             <ul>
                                 <li className="mb-2"><Link href="/about" className="hover:underline opacity-50">About</Link></li>
                             </ul>

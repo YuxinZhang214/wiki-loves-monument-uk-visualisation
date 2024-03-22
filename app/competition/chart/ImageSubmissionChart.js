@@ -42,7 +42,7 @@ const CombinedChart = () => {
     .attr('fill', '#FFFFFF') // White text color
     .style('font-size', '30px') // Larger font size for the title
     .style('font-weight', 'bold')
-    .text('Image Submissions Over the Years');
+    .text('Image Submissions and Monument Coverage');
 
     // Append the description below the title
     svg.append('text')
@@ -118,7 +118,7 @@ const CombinedChart = () => {
     areaChartGroup.append('text')
       .attr('x', 0)
       .attr('y', -45)
-      .text('Received 90,666 image submission over 9 year ')
+      .text('Received 90,666 image submissions ')
       .style('font-size', '22px')
       .style('font-weight', 'bold')
       .style('fill', '#FFFFFF');
@@ -205,7 +205,7 @@ const CombinedChart = () => {
 
     const mapCenterX = (effectiveWidth / 3); 
     const mapTopY = margin.top;
-    const mapTitle = "UK Heritage Sites";
+    const mapTitle = "Documented 1174 Monument instances";
 
     mapGroup.append('text')
         .attr('x', mapCenterX)

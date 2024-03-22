@@ -168,7 +168,7 @@ const MonumentInceptionTimeline = () => {
       .attr('fill', '#ffffff') // White text color
       .style('font-size', '24px') // Increase font size for title
       .style('font-weight', 'bold')
-      .text('Monument Inception Timeline'); // The text of the title
+      .text('Documenting Monuments from 0 to 2000 CE'); // The text of the title
         
   }, [inceptions, svg_width, svg_height, margin, centerY]);  
 

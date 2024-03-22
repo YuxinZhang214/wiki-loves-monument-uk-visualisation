@@ -133,7 +133,7 @@ const OverviewChart = () => {
             .style("font-size", "22px")
             .style("font-weight", "bold")
             .attr('fill', '#FFFFFF')
-            .text("Total Submission each Competition Year");
+            .text("Image Submission for 9 Competition Year");
 
         // legend
         const yearlyLegend = [
@@ -234,7 +234,7 @@ const OverviewChart = () => {
             .style("font-size", "22px")
             .style("font-weight", "bold")
             .attr('fill', '#FFFFFF')
-            .text("Daily Submission during September");
+            .text("Competition Activity during every September");
     
         const dailyLegend = [
             { color: "#69b3a2", text: "Daily Submission Total" } 

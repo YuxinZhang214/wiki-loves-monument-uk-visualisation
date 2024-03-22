@@ -168,7 +168,7 @@ const MonumentContainer = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
                 >
-                    See the {monument_images.length} monuments documented by our community
+                    See the {monument_images.length} monuments that our community has brought to light
                 </motion.p>
                 <form onSubmit={handleSubmit} className="w-full max-w-md">
                     <div className="flex items-center border-2 border-white px-3 py-1 bg-white bg-opacity-20">

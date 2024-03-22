@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
-import { FiChevronUp, FiChevronDown, FiChevronRight } from "react-icons/fi";
+import { FiChevronUp, FiChevronDown } from "react-icons/fi";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -176,7 +176,7 @@ const ImageGallery = ({submission_images}) => {
                     availableDates,
                     handleDateSelect,
                     toggleDateDropdown,
-                    'Date',
+                    'Day',
                     selectedDate
                 )}
             </div>

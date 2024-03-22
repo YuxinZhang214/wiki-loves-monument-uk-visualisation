@@ -83,7 +83,7 @@ const ContestPage = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            Story of the Competition 
+            Unfolding the Legacy
           </motion.h1>
           <motion.p 
             className="text-white mb-8"
@@ -91,7 +91,7 @@ const ContestPage = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            Let's scroll down to explore the history, community and impact of the Competition 
+            Let's scroll down to dive into the rich history, vibrant community, and lasting impact of the Wiki Loves Monuments UK Competition.
           </motion.p>
           
           <div className="animate-bounce mt-4">
@@ -223,10 +223,13 @@ const ContestPage = () => {
               className="flex flex-col lg:flex-row justify-between items-center lg:items-start 
                         border-b-2 border-white px-20 py-16 "
             >
-              <div id="title" className="lg:mb-0 w-3/4">
-                <h1 className="text-4xl font-bold text-white">Historical Timeline Coverage</h1>
+              <div id="title" className="lg:mb-0">
+                <h1 className="text-4xl font-bold text-white">The Millennial Historical Timeline of UK's Monuments</h1>
                 <p className="text-lg text-gray-400 mt-2">
-                See the span of history covered by the monuments captured in the competition's submissions
+                The historical timeline represented in the Wiki Loves Monuments UK competition is not merely a chronicle of dates; it's a vivid canvas showcasing the evolution of a nation's identity etched in stone. From ancient ruins whispering tales of yore to edifices that stood witness to the turning tides of history, each submission in the competition represents a temporal landmark in the UK's vast historical landscape
+                </p> 
+                <p className="text-lg text-gray-400 mt-2">
+                Every documented monument contributes to a collective narrative, spanning eras of conquest, periods of enlightenment, and ages of innovation. The timeline does not just measure time; it measures the pulse of heritage through the enduring legacy of structures that have withstood the test of time. As you journey through the chronicles of our historical timeline, you are tracing the footsteps of ancestors, the genius of architects, and the resilience of societies that have contributed to the rich mosaic of British history
                 </p> 
               </div>
             </div>
