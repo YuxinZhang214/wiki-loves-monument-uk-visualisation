@@ -5,7 +5,7 @@ import React, { createContext, useState, useEffect } from 'react';
 export const DataContext = createContext(null);
 export const WindowDimensionsContext = createContext(null);
 
-export const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
+export const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://wiki-loves-monument-uk.toolforge.org/api';
 
 export const DataProvider = ({ children }) => {
 
