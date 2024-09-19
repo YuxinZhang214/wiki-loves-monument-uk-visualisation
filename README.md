@@ -6,13 +6,14 @@
 
 This visualisation application presents data from 12 years of the Wiki Loves Monument UK competition. Contributors can view their individual contributions, and users can explore a rich collection of documented monuments and images.
 
+**Note: The dataset serving from the backend is currently being actively fixed. As a result, the data displayed in this application may not be entirely accurate at the moment.**
+
 ### Features
 
 - **Monument Gallery**: Explore the monuments documented through the Wiki Loves Monuments competition.
 - **Image Gallery**: View the submissions and discover the stories behind each photograph.
 - **Visualisations**: Engage with data through maps, timelines, and charts.
 - **Community Insights**: Learn about contributors and their impact on heritage preservation.
-
 
 ## Getting Started
 

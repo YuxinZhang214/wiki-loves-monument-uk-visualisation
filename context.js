@@ -9,7 +9,7 @@ export const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://wiki-loves-mon
 
 export const DataProvider = ({ children }) => {
 
-    console.log(process.env.NEXT_PUBLIC_API_URL)
+    console.log(apiUrl)
     // 1. Intro section
     const [stats, setStats] = useState({});
     // 2. Contribution Section
