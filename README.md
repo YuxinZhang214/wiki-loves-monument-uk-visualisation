@@ -8,6 +8,8 @@ This visualisation application presents data from 12 years of the Wiki Loves Mon
 
 **Note: The dataset serving from the backend is currently being actively fixed. As a result, the data displayed in this application may not be entirely accurate at the moment.**
 
+**Performance Notice: The data handling process is currently slow. We are doing our best to optimize the performance of this application. Please have some patience while waiting for data to be displayed.**
+
 ### Features
 
 - **Monument Gallery**: Explore the monuments documented through the Wiki Loves Monuments competition.
