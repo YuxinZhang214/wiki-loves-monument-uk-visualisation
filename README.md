@@ -21,10 +21,10 @@ Installation
 Steps to set up the project locally:
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-project-name.git
+git clone [https://github.com/your-username/your-project-name.git](https://github.com/YuxinZhang214/wiki-loves-monument-uk-visualisation.git)
 
 # Navigate to the project folder
-cd your-project-name
+cd wiki-loves-monument-uk-visualisation
 
 # Install dependencies
 npm install
@@ -59,7 +59,7 @@ Guidelines for contributing to the project:
 For any queries about the project, please contact the project supervisor at ksrh1@st-andrews.ac.uk.
 
 ## Acknowledgements
-- **University of St Andrews, CS Department**: For providing academic support and resources. 
+- **University of St Andrews, School of Computer Science**: For providing academic support and resources. 
 - **Wiki Loves Monuments Community**: For their invaluable contributions to cultural heritage.
 
 ## License
