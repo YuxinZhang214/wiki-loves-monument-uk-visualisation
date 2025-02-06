@@ -7,6 +7,10 @@ import Header from './layout/Header';
 import Footer from './layout/Footer';
 import FloatingCTA from './layout/FloatingCTA';
 
+// vercel analytics and performance monitor
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -55,6 +59,10 @@ export default function RootLayout({ children }) {
 
           </div>
         </Providers>
+
+        <Analytics />
+        <SpeedInsights />
+
       </body>
     </html>
   )

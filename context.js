@@ -9,7 +9,6 @@ export const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://wiki-loves-mon
 
 export const DataProvider = ({ children }) => {
 
-    console.log(apiUrl)
     // 1. Intro section
     const [stats, setStats] = useState({});
     // 2. Contribution Section
@@ -29,6 +28,8 @@ export const DataProvider = ({ children }) => {
     const [submission_images, setSubmissionImages] = useState([]);
 
   useEffect(() => {
+
+    console.log(apiUrl)
    
     // 1. Fetch competition statistics
     fetch(`${apiUrl}/competition/statistics`)

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState, useContext } from 'react';
+// import React, { useEffect, useState, useContext } from 'react';
 
 
 import { DataProvider } from '@/context';
@@ -9,10 +9,10 @@ import { WindowDimensionsProvider } from '@/context';
 
 import IntroductionSection from './home/IntroductionSection';
 
-export default function App() {
+export default function App({}) {
 
   return (
-    <DataProvider> 
+    <DataProvider>
       <WindowDimensionsProvider>
         <Home />
       </WindowDimensionsProvider>
@@ -21,18 +21,18 @@ export default function App() {
 }
 
 const Home = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  const { stats, yearly, daily, community, cumulativeYearly, locations, inceptions } = useContext(DataContext);
+  // const [isLoading, setIsLoading] = useState(true);
+  // const { stats, yearly, daily, community, cumulativeYearly, locations, inceptions } = useContext(DataContext);
 
-  useEffect(() => {
-    if (stats && yearly && daily && community && cumulativeYearly && locations && inceptions) {
-      setIsLoading(false);
-    }
-  }, [stats, yearly, daily, community, cumulativeYearly, locations, inceptions]);
+  // useEffect(() => {
+  //   if (stats && yearly && daily && community && cumulativeYearly && locations && inceptions) {
+  //     setIsLoading(false);
+  //   }
+  // }, [stats, yearly, daily, community, cumulativeYearly, locations, inceptions]);
 
-  if (isLoading) {
-    // return <div>Loading...</div>;
-  }
+  // if (isLoading) {
+  //   // return <div>Loading...</div>;
+  // }
 
   return (
     <div className="scrollbar-hide  bg-indigo-950 text-white">
