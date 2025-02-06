@@ -96,15 +96,15 @@ const ContestPage = () => {
           
           <div className="animate-bounce mt-4">
             {/* First Big down arrow */}
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLinejoin="round" className="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
             <path d="M6 9l6 6 6-6"></path>
             </svg>
             {/* Second Big down arrow */}
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLinejoin="round" className="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
             <path d="M6 9l6 6 6-6"></path>
             </svg>
             {/* Third Big down arrow */}
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLinejoin="round" className="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
             <path d="M6 9l6 6 6-6"></path>
             </svg>
         </div>
@@ -164,7 +164,7 @@ const ContestPage = () => {
             <div className="px-16 my-8 ">
               <CommunityChart/>
             </div>
-         
+        
           </div>
 
           <div 
